@@ -8,7 +8,14 @@ body
 	height: 300px;
 	width:300px;
     border-radius:300px;
-    margin-left: 500px;
+    margin-left: 225px;
+}
+div.para
+{
+	margin-left:auto;
+	margin-right:auto;
+	padding-left: 150px;
+	padding-right:150px;
 }
 div.heading
 {
@@ -16,3 +23,7 @@ div.heading
 	color:red;
 	font-family:"Arial Black";
 }
+
+.btn-facebook 
+{color:#3b5998;
+	background-color:#fff}
