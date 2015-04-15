@@ -3,19 +3,25 @@ body
    background-color:#F3E2A9;
 }
 
+*{
+	margin:0;
+}
+
+
 #pic
 {
 	height: 300px;
 	width:300px;
     border-radius:300px;
-    margin-left: 225px;
+    margin:0 auto;
 }
 div.para
 {
-	margin-left:auto;
-	margin-right:auto;
-	padding-left: 150px;
-	padding-right:150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 1em;
+
 }
 div.heading
 {
@@ -24,6 +30,86 @@ div.heading
 	font-family:"Arial Black";
 }
 
+.main-img
+{
+	height: 300px;
+	width:300px;
+
+margin: 0 auto;
+}
+
+.wrapper
+{
+ width:100%;
+  min-height: 100%
+
+}
+
 .btn-facebook 
 {color:#3b5998;
 	background-color:#fff}
+
+footer
+{
+	text-align: center;
+	margin-top:9em;
+	background-color: white;
+	padding-top: 0.5em;
+
+}
+
+a
+{
+	text-decoration: none;
+    text-align: center; 
+
+}
+
+
+nav
+{
+	padding-top:1em;
+	text-align: center;
+	margin-top: 1em;
+
+}
+nav a:hover { 
+    
+    opacity: 0.5;
+}
+nav a:link
+{
+	margin-left: 1em;
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	padding: 1em;
+
+	clear: both;
+}
+nav a:visited{
+	text-decoration: none;
+	color:red;
+}
+
+.education{
+
+	margin-top: 2em;
+	text-align: center;
+}
+
+hr{
+
+	margin: 0 auto;
+	width: 20%;
+	
+}
+
+ul
+{
+
+	margin:0 auto;
+	margin-right: 2em;
+	list-style: none;
+}
+
